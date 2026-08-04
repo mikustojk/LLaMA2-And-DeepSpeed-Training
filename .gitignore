@@ -6,6 +6,16 @@ __pycache__/
 .pytest_cache/
 .vscode/
 
+# Local-only notes, agent instructions, and intermediate generators
+AGENTS.md
+训练步骤.md
+遇到的一些问题.md
+generate_learning_report_v2.js
+generate_learning_report_v3.js
+generate_learning_report_v4.js
+generate_learning_report_v5.js
+rewrite_sft_v5_sample.js
+
 # Model files and training outputs
 checkpoints/
 models/
