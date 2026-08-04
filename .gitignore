@@ -1,0 +1,28 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+
+# Model files and training outputs
+checkpoints/
+models/
+tokenizer_k/
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Large pretraining data
+data/seq_monkey/
+
+# Intermediate and duplicate SFT datasets
+data/sft/*.jsonl
+!data/sft/learning_report_sft_v5_10000.jsonl
+
+# Logs and local editor files
+*.log
+.DS_Store
+.idea/
