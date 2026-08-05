@@ -21,7 +21,3 @@
 ## 性能对比
 
 benchmark 的运行命令和指标定义见 [`benchmark/README.md`](benchmark/README.md)，完整实验结果保存在 `benchmark/results/`。
-
-## 数据和模型权重
-
-完整预训练语料、模型权重、checkpoint 和本地虚拟环境不随代码仓库提交，请根据项目方案自行准备。
